@@ -17,10 +17,10 @@ const Tour = ({ id, image, info, price, name, removeTour }) => {
               setReadMore(!readMore);
             }}
           >
-            {readMore ? "show less" : "show more"}
+            {readMore ? "show less" : "read more"}
           </button>
         </p>
-        <button className="delete-btn" onClick={() => removeTour(id)}>
+        <button onClick={() => removeTour(id)} className="delete-btn">
           not interested
         </button>
       </footer>
