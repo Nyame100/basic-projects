@@ -192,7 +192,7 @@ main {
 
 /* .con {
   display: flex;
-}
+} */
 .container .btn {
   display: flex;
   flex-direction: row;
@@ -203,4 +203,4 @@ main {
   margin-left: 10rem;
   margin-right: 0.5rem;
   cursor: pointer;
-} */
+}
